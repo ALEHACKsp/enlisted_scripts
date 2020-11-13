@@ -12,4 +12,4 @@ def human_gun_sprint_lerp(evt: CmdWeapAttach; weap_dot_sprintLerpFactor: float =
 [es (track=human_unarmed_dot_active)]
 def human_unarmed_sprint(evt: Event; human_unarmed_dot_active: bool; var human_net_phys: HumanActor)
   if human_unarmed_dot_active
-    human_net_phys.phys.currentState.sprintLerpSpeedMult = 5.f
+    human_net_phys.phys.currentState.sprintLerpSpeedMult = 1.f
